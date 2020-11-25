@@ -1,0 +1,14 @@
+body {
+    background-color: #3792cb;
+    text-align: left;
+    color: white;
+    width: 800px;
+    padding-left: 250px;
+}
+
+#container {
+    width: 800px;
+    font-size: 40px;
+    text-align: left;
+    
+}
