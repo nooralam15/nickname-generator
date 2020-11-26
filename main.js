@@ -27,7 +27,6 @@ function randomNickname() {
     let lastName = document.getElementById("last").value
     let divStr= "" 
     let randomIndex = Math.floor(Math.random() * nickNames.length)
-    //console.log(randomIndex)
     divStr += `<div>${firstName} the ${nickNames[randomIndex]} ${lastName}</div>`
     containerEl.innerHTML = divStr
 }
